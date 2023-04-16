@@ -30,17 +30,14 @@ const NavBar = () => {
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <Link class="nav-Link" to="/Episode">
-                  Episode
+                  Episodios
                 </Link>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Episodes">
-                Pricing
+              <a class="nav-link" href="#">
+                <Link to="/Location">localização</Link>
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
             </li>
           </ul>
         </div>

@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Episode from "./pages/Episode";
+import Location from "./pages/Location";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/Episode",
     element: <Episode />,
+  },
+  {
+    path: "/Location",
+    element: <Location />,
   },
 ]);
 
